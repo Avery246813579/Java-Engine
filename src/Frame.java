@@ -38,7 +38,7 @@ public class Frame extends Canvas implements Runnable, MouseListener, KeyListene
 		addKeyListener(this);
 		
 		try {
-			BufferedImage image = ImageIO.read(getClass().getResourceAsStream("Test/TEST.png"));
+			BufferedImage image = ImageIO.read(getClass().getResourceAsStream("TEST.png"));
 
 			int width = sW = image.getWidth();
 			int height = sH = image.getHeight();
